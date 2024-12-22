@@ -1,0 +1,74 @@
+/* general styling */
+:root {
+    --smaller: .75;
+}
+
+
+.glow-text {
+    font-size: 2rem;
+    /* Adjust as needed */
+    font-weight: bold;
+    color: #ffffff;
+    /* Text color */
+    text-shadow:
+        0 0 5px #ffffff,
+        /* Small inner glow */
+        0 0 10px #ffffff,
+        /* Medium outer glow */
+        0 0 20px #ff00ff,
+        /* Colored glow */
+        0 0 30px #ff00ff,
+        0 0 40px #ff00ff,
+        0 0 50px #ff00ff,
+        0 0 75px #ff00ff;
+    /* Larger outer glow */
+}
+
+.containertime {
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.time h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+.time li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.time li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+    .time h1 {
+        font-size: calc(1.5rem * var(--smaller));
+    }
+
+    .time li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    .time li span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
+}

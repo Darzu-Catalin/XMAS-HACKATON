@@ -1,0 +1,23 @@
+.gear-wrapper {
+    display: inline-flex;
+    /* or inline-block, as you prefer */
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.rotating-gear {
+    width: 64px;
+    /* Adjust size as needed */
+    height: 64px;
+    color: #555;
+    /* Gear color; can be changed or overwritten */
+    animation: spin 2s linear infinite;
+}
+
+/* Keyframes for infinite rotation */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

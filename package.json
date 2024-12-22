@@ -19,5 +19,25 @@
         "react-dom": "^18.2.0",
         "tailwindcss": "^3.2.1",
         "vite": "^6.0"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.0",
+        "@fontsource/figtree": "^5.1.1",
+        "@fontsource/roboto": "^5.1.0",
+        "@mui/icons-material": "^6.2.1",
+        "@mui/material": "^6.2.1",
+        "@mui/x-charts": "^7.23.2",
+        "chart.js": "^4.4.7",
+        "leaflet": "^1.9.4",
+        "leaflet-polylinedecorator": "^1.6.0",
+        "leaflet.markercluster": "^1.5.3",
+        "mapbox-gl": "^3.9.0",
+        "react-chartjs-2": "^5.2.0",
+        "react-leaflet": "^4.2.1",
+        "react-leaflet-markercluster": "^4.2.1",
+        "react-map-gl": "^7.1.8",
+        "react-tooltip": "^5.28.0",
+        "simplify-js": "^1.2.4"
     }
 }
